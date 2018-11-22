@@ -22,6 +22,10 @@ module.exports = {
     module: {
         rules: [
             {
+                test:/\.(s*)css$/,
+                use:['style-loader','css-loader', 'sass-loader']
+             },
+            {
                 // vue-loader config to load `.vue` files or single file components.
                 test: /\.vue$/,
                 loader: 'vue-loader',

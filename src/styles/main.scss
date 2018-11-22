@@ -1,0 +1,15 @@
+//test styles
+$blue: #01bec0;
+
+.main-content{
+    margin: 0 auto;
+        font-family: sans-serif;
+        background-color: $blue; 
+        padding: 10px;
+        border-radius: 5px;
+        max-width: 500px;
+
+        h1{
+            color: green;
+        }
+}
